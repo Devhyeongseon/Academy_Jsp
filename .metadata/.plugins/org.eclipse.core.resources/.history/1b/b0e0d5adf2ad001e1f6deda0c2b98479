@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>테이블 주문화면</title>
+</head>
+<body>
+
+<div class="order-container">
+    <h2>테이블 주문</h2>
+    <table id="order-table">
+        <thead>
+            <tr>
+                <th>메뉴</th>
+                <th>가격</th>
+                <th>주문 수량</th>
+                <th>주문</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 메뉴 항목들이 여기에 들어갑니다 -->
+            <tr>
+                <td>아메리카노</td>
+                <td>3,000원</td>
+                <td><input type="number" min="0" value="0"></td>
+                <td><button class="order-btn">주문</button></td>
+            </tr>
+            <!-- 다른 메뉴들도 추가할 수 있습니다 -->
+        </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

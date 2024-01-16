@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.background{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1920px;
+	height: 1080px;
+	background-image: url("../image/background2.png");
+	padding: 20px 0px 0px 20px;
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.outerbox{
+	display: flex;
+	width: 1280px;
+	height: 720px;
+	background-color: white;
+	border: 3px solid royalblue;
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bear2.jpg");
+}
+
+.wrapper__header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	opacity: 0.5;
+	margin-bottom: 50px;
+}
+
+.header__title{
+	font-size: 40px;
+	font-weight: 800;
+    color: #d4dfe6;
+}
+
+.wrapper__body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 600px;
+	height: 200px;
+}
+
+.body__id, .body__name{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.body__modify{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.divideLine{
+	width: 100%;
+	border: 1px solid gray;
+}
+
+.wrapper__footer{
+	width: 100%;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 120px;
+}
+
+.wrapper__footer__title{
+	font-size: 15px;
+	font-weight: 600;
+}

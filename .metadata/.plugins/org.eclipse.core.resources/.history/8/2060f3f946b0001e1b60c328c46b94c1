@@ -1,0 +1,34 @@
+package com.project.ImageControll;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class ImageControllServlet
+ */
+@WebServlet("/imageController")
+public class ImageControllerServlet extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // JSP에서 전송된 값을 가져옵니다.
+        String value = request.getParameter("value");
+
+        // VO에 값을 설정합니다.
+        ImageVO imageVO = new ImageVO();
+        imageVO.setValue(value);
+
+        // DAO를 사용하여 데이터베이스에 값을 저장합니다.
+        ImageDAO imageDAO = new ImageDAO();
+        imageDAO.saveValue(imageVO.getValue());
+
+        // 필요에 따라 다른 동작 수행
+
+        // 응답을 생성 (예: JSON 응답)
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        response.getWriter().write("{\"result\": \"success\"}");
+    }
+}

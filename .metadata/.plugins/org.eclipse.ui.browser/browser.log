@@ -1,0 +1,111 @@
+
+12월 26, 2023 16:40:15.67 NEW SESSION
+12월 26, 2023 16:40:15.69 [12160:14244:1226/164015.678:ERROR:policy_logger.cc(156)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(161) Cloud management controller initialization aborted as CBCM is not enabled. Please use the `--enable-chrome-browser-cloud-management` command line flag to enable it if you are not using the official Google Chrome build.
+12월 26, 2023 16:40:15.89 [12160:14244:1226/164015.895:ERROR:edge_auth_errors.cc(514)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+12월 26, 2023 16:40:15.91 
+
+12월 27, 2023 11:23:52.87 NEW SESSION
+12월 27, 2023 11:23:52.88 [16616:15680:1227/112352.869:ERROR:interface_endpoint_client.cc(702)] Message 3 rejected by interface blink.mojom.Widget
+12월 27, 2023 11:43:57.36 [10032:5372:1227/114357.362:ERROR:mcs_client.cc(750)] Received close command, resetting connection.
+12월 27, 2023 12:27:55.15 [5500:17852:1227/122755.151:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 27, 2023 12:27:58.67 [5500:17852:1227/122758.676:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 27, 2023 12:28:05.95 [5500:17852:1227/122805.956:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 27, 2023 12:28:49.50 [5500:17852:1227/122849.504:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+12월 27, 2023 14:10:58.85 [5500:17852:1227/141058.858:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 27, 2023 14:30:39.41 [4952:15056:1227/143039.418:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for www.homejjang.com failed:
+12월 27, 2023 14:30:39.41 ----- Certificate i=0 (O=My Company Ltd,L=Newbury,ST=Berkshire,C=GB) -----
+12월 27, 2023 14:30:39.41 ERROR: No matching issuer found
+12월 27, 2023 14:30:39.41 
+12월 27, 2023 14:30:39.41 
+12월 27, 2023 14:33:42.92 [4952:15056:1227/143342.924:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for madalla.kr failed:
+12월 27, 2023 14:33:42.92 ----- Certificate i=0 (O=Default Company Ltd,L=Default City,C=XX) -----
+12월 27, 2023 14:33:42.92 ERROR: No matching issuer found
+12월 27, 2023 14:33:42.92 
+12월 27, 2023 14:33:42.92 
+12월 27, 2023 14:35:00.37 [4952:15056:1227/143500.373:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for sudadot.com failed:
+12월 27, 2023 14:35:00.37 ----- Certificate i=0 (emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--) -----
+12월 27, 2023 14:35:00.37 ERROR: No matching issuer found
+12월 27, 2023 14:35:00.37 
+12월 27, 2023 14:35:00.37 
+
+12월 28, 2023 16:55:18.74 NEW SESSION
+12월 28, 2023 16:55:18.76 [5456:8068:1228/165518.733:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for cs.axis-marketplace.com failed:
+12월 28, 2023 16:55:18.76 ----- Certificate i=0 (CN=*.axis-marketplace.com) -----
+12월 28, 2023 16:55:18.76 ERROR: Time is after notAfter
+12월 28, 2023 16:55:18.76 
+12월 28, 2023 16:55:18.76 
+
+12월 29, 2023 12:18:05.42 NEW SESSION
+12월 29, 2023 12:18:05.44 [3120:15492:1229/121805.422:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+12월 29, 2023 12:18:05.44 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+12월 29, 2023 12:18:05.44 ERROR: Time is after notAfter
+12월 29, 2023 12:18:05.44 
+12월 29, 2023 12:18:05.44 
+
+1월 02, 2024 10:15:39.96 NEW SESSION
+1월 02, 2024 10:15:39.97 [15544:5100:0102/101539.964:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 02, 2024 10:15:46.04 [15544:5100:0102/101546.048:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 02, 2024 10:15:47.52 [15544:5100:0102/101547.525:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 02, 2024 10:16:08.15 [15544:5100:0102/101608.154:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 02, 2024 10:16:13.93 [15544:5100:0102/101613.937:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 02, 2024 10:16:22.27 [15544:5100:0102/101622.277:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 02, 2024 10:16:24.17 [15544:5100:0102/101624.175:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 02, 2024 11:04:21.33 [4008:18616:0102/110421.332:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)
+1월 02, 2024 14:32:10.68 [17608:11404:0102/143210.687:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+
+1월 03, 2024 10:45:05.08 NEW SESSION
+1월 03, 2024 10:45:05.09 [15252:1684:0103/104505.063:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for cs.axis-marketplace.com failed:
+1월 03, 2024 10:45:05.09 ----- Certificate i=0 (CN=*.axis-marketplace.com) -----
+1월 03, 2024 10:45:05.09 ERROR: Time is after notAfter
+1월 03, 2024 10:45:05.09 
+1월 03, 2024 10:45:05.09 
+
+1월 04, 2024 12:03:04.82 NEW SESSION
+1월 04, 2024 12:03:04.84 [19140:17636:0104/120304.817:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 04, 2024 14:11:56.81 [19016:19068:0104/141156.816:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+1월 05, 2024 10:07:35.49 NEW SESSION
+1월 05, 2024 10:07:35.51 [12004:10312:0105/100735.489:ERROR:cert_issuer_source_aia.cc(135)] AiaRequest::OnFetchCompleted got error -7
+1월 05, 2024 10:07:35.52 [12004:10312:0105/100735.489:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for grey.erne.co failed:
+1월 05, 2024 10:07:35.52 ----- Certificate i=0 (CN=erne.co) -----
+1월 05, 2024 10:07:35.52 ERROR: No matching issuer found
+1월 05, 2024 10:07:35.52 
+1월 05, 2024 10:07:35.52 
+1월 05, 2024 11:18:16.99 [12004:15084:0105/111816.998:ERROR:mcs_client.cc(750)] Received close command, resetting connection.
+1월 05, 2024 16:21:36.16 [12004:11204:0105/162136.161:ERROR:device_event_log_impl.cc(192)] [16:21:36.161] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 05, 2024 16:29:32.56 [12004:15084:0105/162932.562:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+1월 05, 2024 16:29:32.57 [12004:15084:0105/162932.577:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+1월 05, 2024 16:29:35.10 [12004:15084:0105/162935.103:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+1월 08, 2024 15:39:03.69 NEW SESSION
+1월 08, 2024 15:39:03.70 [12300:6896:0108/153903.695:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 15:39:04.84 [12300:6896:0108/153904.840:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 18:06:04.07 [736:13284:0108/180604.074:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+1월 09, 2024 09:55:37.38 [736:12852:0109/095533.342:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 09, 2024 09:55:37.45 [736:13284:0109/095533.342:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+1월 09, 2024 09:55:39.03 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 09, 2024 16:50:56.29 [11416:15648:0109/165056.291:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+1월 09, 2024 16:58:36.64 [11416:9544:0109/165836.646:ERROR:device_event_log_impl.cc(192)] [16:58:36.646] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 09, 2024 17:18:19.44 [11416:9544:0109/171819.441:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+1월 10, 2024 10:05:48.95 NEW SESSION
+1월 10, 2024 10:05:48.96 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+1월 10, 2024 10:05:48.96 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#56 is a dynamic-sized tensor).
+1월 10, 2024 10:52:13.94 [9804:2328:0110/105213.943:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 10, 2024 11:28:26.82 [9328:10196:0110/112826.829:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 11:28:27.45 [9328:10196:0110/112827.457:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 11:28:29.32 [9328:10196:0110/112829.320:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 11:28:34.01 [9328:10196:0110/112834.013:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 11:28:35.36 [9328:10196:0110/112835.363:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 11:28:44.98 [9328:10196:0110/112844.989:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 10, 2024 16:07:19.95 [1936:5940:0110/160719.956:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+
+1월 11, 2024 13:06:49.05 NEW SESSION
+1월 11, 2024 13:06:49.06 [2208:4880:0111/130649.056:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+1월 11, 2024 13:36:02.36 [2208:9352:0111/133602.359:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+1월 11, 2024 13:36:06.29 [2208:4880:0111/133602.371:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+1월 11, 2024 13:36:22.17 [2208:4484:0111/133622.171:ERROR:device_event_log_impl.cc(192)] [13:36:22.171] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+1월 12, 2024 13:09:09.87 NEW SESSION
+1월 12, 2024 13:09:09.88 [8332:4104:0112/130909.873:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+1월 12, 2024 13:54:33.56 [8332:4104:0112/135429.328:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

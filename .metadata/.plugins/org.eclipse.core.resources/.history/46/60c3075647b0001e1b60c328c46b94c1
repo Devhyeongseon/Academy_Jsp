@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>이미지를 눌러 DB로 값 전송</title>
+</head>
+<body>
+
+<!-- 이미지 클릭 시 JavaScript 함수 호출 -->
+<img src="your_image.jpg" alt="Your Image" width="200" height="200" onclick="sendValueToDB('your_value')">
+
+<!-- JavaScript 코드 -->
+<script>
+    function sendValueToDB(value) {
+        // Ajax를 사용하여 서버로 값을 전송
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "imageController", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                // 서버로부터의 응답 처리
+                console.log(xhr.responseText);
+            }
+        };
+        xhr.send("value=" + value);
+    }
+</script>
+
+</body>
+</html>

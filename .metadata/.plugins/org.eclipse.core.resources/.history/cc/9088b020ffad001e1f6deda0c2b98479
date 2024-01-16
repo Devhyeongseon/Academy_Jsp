@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('your-background-image.jpg') center/cover no-repeat fixed; /* 배경 이미지를 적용하려면 경로를 적절히 변경하세요. */
+        }
+
+        .login-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8); /* 투명한 백그라운드 색상 */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .login-form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .login-form button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <title>로그인 화면</title>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>로그인</h2>
+    <form class="login-form">
+        <input type="text" placeholder="아이디" required>
+        <input type="password" placeholder="비밀번호" required>
+        <input type="text" placeholder="이름" required>
+        <input type="email" placeholder="이메일" required>
+        <button type="submit">로그인</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.background{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/background2.png");
+	padding: 20px 0px 0px 20px;
+}
+
+.outerbox{
+	display: flex;
+	width: 1280px;
+	height: 720px;
+	border-radius: 9px;
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-image: url("../image/bear2.jpg");
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.wrapper__left{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 100%;
+}
+
+.wrapper__left__header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100px;
+}
+
+.left__header__img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 50px;
+	background-image: url("../image/logo.png");
+}
+
+.left__header__title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.wrapper__left__body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
+	height: 520px;
+}
+
+.left__body__dish{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	width: 180px;
+	height: 60px;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: #298eb5;
+	border-radius: 9px 0px 0px 9px;
+}
+
+.wrapper__left__footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100px;
+}
+
+.left__footer__button{
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: 600;	
+	border: 1px solid lightgray;
+	border-radius: 9px;
+}
+
+.wrapper__right{
+	display: flex;
+	flex-direction: column;
+	width: 1030px;
+	height: 100%;
+}
+
+.wrapper__right__header{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 70px;
+	padding-right: 3px;
+	background-color: white;
+}
+
+.right__header__menu{
+	width: 350px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__menu__title{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+}
+
+.right__header__right{
+	display: flex;
+	flex-direction: initial;
+	width: 680px;
+	height: 100%;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.header__right__list{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 100%;
+}
+
+.header__right__mypage{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 50px;
+	border: 1px solid antiquewhite;
+	border-radius: 9px;
+	background-color: #298eb5;
+	font-size: 18px;
+	font-weight: 700;
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.header__right__basket{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 50px;
+	border: 1px solid antiquewhite;
+	border-radius: 9px;
+	background-color: #298eb5;
+	font-size: 18px;
+	font-weight: 700;
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.header__right__logout{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 50px;
+	border: 1px solid antiquewhite;
+	border-radius: 9px;
+	background-color: #298eb5;
+	font-size: 18px;
+	font-weight: 700;
+	box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.wrapper__right__body{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 570px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+
+.wrapper__right__footer{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+
+

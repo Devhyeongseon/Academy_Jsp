@@ -1,0 +1,14 @@
+package com.project.food.serivce;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class FoodServiceImpl implements FoodService{
+
+	@Override
+	public int add(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

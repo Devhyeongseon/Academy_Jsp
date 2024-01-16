@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>제이오더에 오신걸 환영합니다</title>
+<style>
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	}
+.background{
+	width: 100vw;
+	height: 100vh;
+	background-color:tomato;
+	display : flex;
+    justify-content : center;
+    align-items : center;
+
+}
+.container{
+	width: 1200px;
+	height:800px;
+	background: tomato;
+	border: 1px solid white;
+    border-radius: 50px;
+    /* padding: 10px 30px; */ /* 더커짐 */
+    box-shadow: 5px 5px 5px 5px gray;
+
+}
+
+
+</style>
+
+
+</head>
+<body>
+	<div class="background">
+		<div class="container"><h2>J-ORDER</h2>
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	version="4.0">
+	<display-name>JSPBasic</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<!-- 서블릿 설정 -->
+	<servlet>
+		<servlet-name>appBasic</servlet-name>
+		<servlet-class>com.example.servlet.TestServlet</servlet-class>
+	</servlet>
+
+	<!--서블릿 맵핑 -->
+	<servlet-mapping>
+		<servlet-name>appBasic</servlet-name>
+		<url-pattern>/apple</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!--예외처리에 대한 프로젝트 전역설정- 개발도중에 하면 예외로그 보이지않는다. 프로젝트 끝나고 고려할사항.-->
+	
+<!-- 	<error-page>
+		<error-code>404</error-code>
+		<location>/errorpage/error_view.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<error-code>500</error-code>
+		<location>/errorpage/error_view.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<error-code>503</error-code>
+		<location>/errorpage/error_view.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>java.lang.NullPointerException</exception-type>
+		<location>/errorpage/error_view.jsp</location>
+	</error-page>
+	
+	 -->
+
+
+</web-app>

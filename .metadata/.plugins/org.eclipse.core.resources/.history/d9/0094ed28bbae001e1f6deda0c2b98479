@@ -1,0 +1,5 @@
+package com.jorder.user.model;
+
+public class UserDAO {
+
+}

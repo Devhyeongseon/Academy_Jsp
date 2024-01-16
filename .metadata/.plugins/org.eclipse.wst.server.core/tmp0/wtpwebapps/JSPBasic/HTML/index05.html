@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body>
+
+
+	<!--폼은 나중에 데이터를 전송하기 위한 역할-->
+	<h3>회원가입</h3>
+
+	<form>
+
+		아이디: <input type="text" name="id" size="10" maxlength="10" placeholder="아이디 입력"><br>
+		비밀번호: <input type="password" name="pw"><br>
+		생년월일: <input type="date" name="birth"><br>
+		나이: <input type="number" name="age"><br>
+
+		<!--체크박스,라디오 버튼같은경우는 동일한그룹인 경우, 동일한 name으로 묶어준다.-->
+		<!--체크박스는 중복체크,해제 가능-->
+		취미:
+		축구<input type="checkbox" name="a1">
+		농구<input type="checkbox" name="a1">
+		족구<input type="checkbox" name="a1">
+		탁구<input type="checkbox" name="a1">
+		<br>
+		<!--라디오 버튼은 한그룹으로 묶으면 하나만 선택가능하고, 중복선택, 해제불가능.-->
+		전공:
+		컴퓨터<input type="radio" name="b1">
+		시각디자인<input type="radio" name="b1">
+		전기전자<input type="radio" name="b1">
+		수학<input type="radio" name="b1">
+		
+		<br>
+		지역:
+		<select>
+			<option>서울시</option>
+			<option>경기도</option>
+			<option>제주도</option>
+			<option>전라도</option>
+			<option>경상도</option>
+		</select>
+		
+		
+		<br>
+		나를소개하세요.
+		<br>
+		<textarea rows="5" cols="50"></textarea>
+		
+		<!--기능없는 버튼(JS를 이용해서 기능을 붙일수있다.)-->
+		<input type="button" value="그냥버튼">
+		
+		<!--폼 양식을 초기화-->
+		<input type="reset" value="리셋이다 누르지마라">
+		
+		<!--서브밋 : 전송하는버튼-->
+		<input type="submit" value="가입하기">
+		
+	</form>
+</body>
+
+</html>

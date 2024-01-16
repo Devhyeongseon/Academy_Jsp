@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.fuck1 {
+	width: 100vw;
+	height: 100vh;
+	background: pink;
+}
+.fuck2 {
+	width: 1200px;
+	height: 800px;
+	background: tomato;
+}
+</style>
+</head>
+
+
+<body>
+
+	<div class="fuck1">왜 꽉안차냐고 시발
+		<div class="fuck2">fuck2입니다.
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.jorder.user.service;
+
+public class UserServiceImple implements UserService{
+
+}

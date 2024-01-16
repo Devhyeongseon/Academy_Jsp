@@ -1,0 +1,40 @@
+package com.jorder.user.model;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class UserDAO {
+
+	//싱글톤
+	
+	private static UserDAO instance = new UserDAO();
+	
+	//2. 생성자 private
+	private UserDAO() {
+		
+		try {
+			//드라이버호출
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+		} catch (Exception e) {
+			
+		}	
+	}	
+	//3. getter 메서드
+	public static UserDAO getInstance() {
+		return instance;		
+	}
+	
+	//////////////////////////////////////////////////
+	private String url = JdbcUtil.url;
+	private String uid = JdbcUtil.uid;
+	private String upw = JdbcUtil.upw;
+
+	public void insertUser(UserVO vo) {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		
+	}
+	
+	
+}

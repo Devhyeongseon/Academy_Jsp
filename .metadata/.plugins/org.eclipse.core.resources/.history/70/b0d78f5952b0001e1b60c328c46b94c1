@@ -1,0 +1,51 @@
+package com.project.controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.project.user.service.UserService;
+import com.project.user.service.UserServiceImpl;
+
+@WebServlet("*.food")
+public class FoodController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	public FoodController() {
+		super();
+
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+	}
+
+	protected void doAction(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+
+		request.setCharacterEncoding("utf-8");
+
+		String uri = request.getRequestURI();
+		String path = (String) uri.substring(request.getContextPath().length());
+
+		UserService service = new UserServiceImpl();
+
+		// 시작화면에서 "로그인" 화면으로의 전환
+		if (path.equals("/food/addCart.food")) {
+			request.getRequestDispatcher("user_login.jsp").forward(request, response);
+
+			// 시작화면에서 "회원가입" 화면으로의 전환
+		} else if (path.equals("/login/join.user")) {
+			response.sendRedirect("../login/user_join.jsp");
+		}
+	}
+}

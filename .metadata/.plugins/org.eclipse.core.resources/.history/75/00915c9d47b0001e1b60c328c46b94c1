@@ -1,0 +1,26 @@
+package com.project.ImageControll;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class ImageDAO {
+    public void saveValue(String value) {
+        // 여기에서 데이터베이스에 값을 저장하는 코드를 추가합니다.
+        // Connection, PreparedStatement 등을 사용하여 적절한 데이터베이스 연동을 수행합니다.
+        // 예를 들면 JDBC를 사용하는 경우:
+        /*
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://your_db_host/your_db_name", "your_db_user", "your_db_password")) {
+            String sql = "INSERT INTO your_table_name (column_name) VALUES (?)";
+            try (PreparedStatement pstmt = conn.prepareStatement(sql)) {
+                pstmt.setString(1, value);
+                pstmt.executeUpdate();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        */
+    	
+    	
+    }
+}

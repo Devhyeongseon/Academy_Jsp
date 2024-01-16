@@ -1,0 +1,33 @@
+<!DOCTYPE html><!--html문서라는 뜻-->
+<html>
+<head><!-- 페이지에 대한 정보가 들어감(제목,아이콘,화면의사이즈 정보 등등,검색힌트)ㅡ-->
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+
+	<h1>제목 태그입니다@@@@</h1>
+	<h3>제목 태그입니다@@@@</h3>
+	<h6>제목 태그입니다@@@@</h6>
+	
+	<p>
+		글 내용을 나타낼때 쓴다.<br>
+		줄 바꾸고싶을때는 br
+	</p>
+	
+	<a href="https://www.naver.com">네이버로 이동</a>
+	<a href="https://www.google.com">네이버로 이동</a>
+	<a href="hello.html">hello.html 로 이동</a>
+	
+	<img src ="./img/테스트1.jpg" alt="갱얼쥐" width = 200 height="200"/>
+	
+	<hr>
+	
+	<b>굵은 글씨</b>
+	<i>기울여서 쓰기</i>
+	<strong>강하게 쓰기</strong>
+	<small>약하게 쓰기</small>
+
+
+</body>
+</html>
